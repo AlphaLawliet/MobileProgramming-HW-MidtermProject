@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="cambodia">Cambodia</string>
+    <string name="phnom_penh">Phnom Penh</string>
+    <string name="cambodia_flag">Cambodia_Flag</string>
+</resources>

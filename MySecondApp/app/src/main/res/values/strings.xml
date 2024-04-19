@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MySecondApp</string>
+    <string name="celcius">Celcius</string>
+    <string name="InputTempEditText">0</string>
+</resources>

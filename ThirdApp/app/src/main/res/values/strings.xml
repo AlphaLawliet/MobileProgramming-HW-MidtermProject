@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ThirdApplication</string>
+    <string name="foods">foods</string>
+    <string name="fruit">FRUIT</string>
+    <string name="vegetable">VEGETABLE</string>
+    <string name="Drink">DRINK</string>
+    <string name="textview">TextView</string>
+</resources>

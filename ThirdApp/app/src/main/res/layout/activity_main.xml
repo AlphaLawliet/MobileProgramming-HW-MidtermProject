@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:contentDescription="callbuttonImage"
+            android:onClick="callBtnClickHandler"
+            app:srcCompat="@drawable/call" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            android:contentDescription="searchButtonImage"
+            android:onClick="searchBtnClickHandler"
+            app:srcCompat="@drawable/search" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Few Food Items"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:contentDescription="@string/foods"
+        app:srcCompat="@drawable/food" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fruitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="fruitBtnClickHandler"
+            android:text="@string/fruit" />
+
+        <Button
+            android:id="@+id/vegetableButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="vegBtnClickHandler"
+            android:text="@string/vegetable" />
+
+        <Button
+            android:id="@+id/drinkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="drinkBtnClickHandler"
+            android:text="@string/Drink" />
+    </LinearLayout>
+
+</LinearLayout>
